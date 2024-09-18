@@ -3,7 +3,7 @@ import requests
 
 url = 'https://www.mongard.ir/'
 
-response = requests.get(url)
+response = requests.post(url)
 
 # print(response.url)
 # print(response.status_code)
